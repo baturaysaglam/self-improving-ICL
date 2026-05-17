@@ -1,0 +1,71 @@
+{
+  "dictionary_search": {
+    "num_samples": 190,
+    "max_full_tokens": 941,
+    "max_gen_len": 75
+  },
+  "string_completion": {
+    "num_samples": 100,
+    "max_full_tokens": 2088,
+    "max_gen_len": 12
+  },
+  "order_check": {
+    "num_samples": 100,
+    "max_full_tokens": 313,
+    "max_gen_len": 5
+  },
+  "order_adjustment": {
+    "num_samples": 240,
+    "max_full_tokens": 1264,
+    "max_gen_len": 256
+  },
+  "duplication_check": {
+    "num_samples": 300,
+    "max_full_tokens": 1407,
+    "max_gen_len": 5
+  },
+  "deduplication": {
+    "num_samples": 300,
+    "max_full_tokens": 1494,
+    "max_gen_len": 60
+  },
+  "relation_analysis": {
+    "num_samples": 100,
+    "max_full_tokens": 1343,
+    "max_gen_len": 60
+  },
+  "count_and_navigation": {
+    "num_samples": 120,
+    "max_full_tokens": 379,
+    "max_gen_len": 30
+  },
+  "format_check": {
+    "num_samples": 120,
+    "max_full_tokens": 265,
+    "max_gen_len": 5
+  },
+  "format_cloning": {
+    "num_samples": 100,
+    "max_full_tokens": 1186,
+    "max_gen_len": 196
+  },
+  "format_conversion": {
+    "num_samples": 120,
+    "max_full_tokens": 2189,
+    "max_gen_len": 256
+  },
+  "list_mapping": {
+    "num_samples": 250,
+    "max_full_tokens": 1441,
+    "max_gen_len": 50
+  },
+  "_metadata": {
+    "description": "Token and sample statistics for ICLEval tasks",
+    "tokenizer": "openai-community/gpt2-large",
+    "max_full_tokens_definition": "Maximum tokens for prompt + label across all samples",
+    "max_gen_len_definition": "Maximum generation length from ICLEval benchmark (per-task)",
+    "overall_max_full_tokens": 2189,
+    "overall_max_gen_len": 256,
+    "total_samples": 2040
+  }
+}
