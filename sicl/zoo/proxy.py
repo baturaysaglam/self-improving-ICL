@@ -5,8 +5,6 @@ Implements the proxy components for assessing in-context learning performance:
 - Component 1: Per-Exemplar Absolute Confidence
 - Component 2: Per-Exemplar Robustness
 - Component 3: Absolute Information Gain
-
-See icl-proxy.md for detailed documentation.
 """
 
 from typing import List, Optional, Tuple
